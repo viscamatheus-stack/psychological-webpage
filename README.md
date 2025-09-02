@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UNCLE JOHNPAUL PSYCHOLOGICAL HEALTH CARE</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f7f9;
+      color: #333;
+    }
+
+    header {
+      background: #4a90e2;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header img {
+      width: 80px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      padding: 60px;
+      text-align: center;
+      background: #eaf3fc;
+    }
+
+    .hero img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .service-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .service-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #4a90e2;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Logo Placeholder -->
+    <img src="logo.jpg" alt="MindCare Logo">
+    <h1>UNCLE JOHNPAUL PSYCHOLOGICAL HEALTH CARE</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+	  <a href="signup.html">Register</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <!-- Hero Banner Placeholder -->
+    <img src="easy.jpg" alt="Psychology Banner">
+    <h2>Helping You Build a Healthier Mind</h2>
+    <p>Professional psychological support for individuals, families, and workplaces.</p>
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      UNCLE JOHNPAUL PSYCHOLOGICAL HEALTH CARE is dedicated to providing compassionate and confidential support. 
+      Our team of professionals helps clients manage stress, anxiety, relationships, and workplace challenges.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <img src="psycho.jpg" alt="Therapy Session">
+        <h3>Individual Therapy</h3>
+        <p>Personalized sessions to help with mental health and personal growth.</p>
+      </div>
+      <div class="service-card">
+        <img src="counsel.jpg" alt="Workplace Counseling">
+        <h3>Workplace Programs</h3>
+        <p>Workshops and counseling designed for teams and organizations.</p>
+      </div>
+      <div class="service-card">
+        <img src="family counsel.jpg" alt="Family Therapy">
+        <h3>Family & Couples Therapy</h3>
+        <p>Supporting relationships through better communication and understanding.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@UNCLEJOHNPAUL.org</p>
+    <p>Phone: +123 456 7890</p>
+    <p>Location: 123 LOS ANGLES, Cape Town</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 UNCLE JOHNPUAL PSYCHOLOGICAL HEALTH CARE. All rights reserved.</p>
+  </footer>
+</body>
+</html>
